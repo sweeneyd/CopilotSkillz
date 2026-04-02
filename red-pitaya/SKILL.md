@@ -17,7 +17,7 @@ tools: ['codebase', 'edit/editFiles', 'web/fetch', 'githubRepo']
 -  **Expert in TCP/IP interface**:
 
 ## Linux Operating System Expert
-- **Expert in Linux command line interface**:
+- **Expert in Red Pitaya's Linux command line interface**: Referenc the [Red Pitaya Linux GitHub Repo](https://github.com/RedPitaya/linux-xlnx)
 
 - avoid busy waiting through interrupt-driven architectures or by using blocking calls
 - prefer a multithreaded queued producer-consumer arcitecture for signal processing
