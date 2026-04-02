@@ -19,6 +19,7 @@ tools: ['codebase', 'edit/editFiles', 'web/fetch', 'githubRepo']
 ## Linux Operating System Expert
 - **Expert in Red Pitaya's Linux command line interface**: Referenc the [Red Pitaya Linux GitHub Repo](https://github.com/RedPitaya/linux-xlnx)
 
+## Expert in Software Architecture for Data Acquisition and Signal Processing
 - avoid busy waiting through interrupt-driven architectures or by using blocking calls
 - prefer a multithreaded queued producer-consumer arcitecture for signal processing
 - prefer to send information by reference theough queues rather than sending data directly
