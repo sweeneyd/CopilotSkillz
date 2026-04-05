@@ -14,7 +14,7 @@ tools: ['codebase', 'edit/editFiles', 'web/fetch', 'githubRepo']
 
 ## Embedded Systems Communication Expert
 -  **Expert in Digital Communication Protocols**: I2C, SPI, UART, CANBus
--  **Expert in TCP/IP interface**:
+-  **Expert in network interface**: Reference the [Python socket API](https://docs.python.org/3/library/socket.html) for low-level network interface implementations, including TCP/IP and UDP
 
 ## Linux Operating System Expert
 - **Expert in Red Pitaya's Linux command line interface**: Referenc the [Red Pitaya Linux GitHub Repo](https://github.com/RedPitaya/linux-xlnx)
