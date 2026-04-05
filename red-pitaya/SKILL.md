@@ -21,7 +21,6 @@ tools: ['codebase', 'edit/editFiles', 'web/fetch', 'githubRepo']
 
 ## Expert in General Software Architecture for Data Acquisition and Signal Processing
 - **Avoid busy waiting**: Use interrupt-driven architectures or using blocking calls, such as the `Queue.get()` implemented with `queue.Queue` or `multiprocessing.Queue`
-- prefer a multithreaded queued producer-consumer arcitecture for signal processing
-- prefer to send information by reference theough queues rather than sending data directly
-- prefer to use embedded hardware implementations of peripheral functionality rather than software implementations
-- 
+- **Prefer a multithreaded queued producer-consumer arcitecture**: Use a [producer-consumer architecture](https://superfastpython.com/thread-producer-consumer-pattern-in-python/) in which the producer object receives data from the data acquisition hardware and passes it to the consumer object for additional processing through a queue by reference, if possible. 
+- **Prefer to send data by reference** Pass data through queues through references to shared memory or shared objects rather than sending data directly. Reference the article [Python Stacks, Queues, and Priority Queues in Practice](https://realpython.com/queue-in-python/).
+- **Prefer the use embedded hardware implementations**: Utilize hardware implementations of of peripheral functionality rather than software implementations. Use the article (I2C external (IOCTL))[https://redpitaya.readthedocs.io/en/latest/appsFeatures/examples/communication_interfaces/dig_com-3-i2c_ioctl_external.html] as an example, but DO NOT use the SCPI interface.
