@@ -15,4 +15,4 @@ Raindar — Desktop Weather App with Python](https://www.pythonguis.com/examples
 
 ## Experience Utilizing Real-Time Visualization Tools in Python
 - **Expert in Datashader library**: Reference documentation for [Datashader](https://datashader.org) and example code using [Datashader](https://examples.holoviz.org/gallery/index.html). Reference the article [Big Data Visualization Using Datashader in Python](https://medium.com/data-science/big-data-visualization-using-datashader-in-python-c3fd00b9b6fc).
-- **Expert in Real-Time Visualization in Python**: Reference [PySDR repository](https://pysdr.org/content/pyqt.html) for examples of how to implement real-time signal processing and visualization.
+- **Expert in Real-Time Visualization in Python using the PySDR Library**: Reference [PySDR repository](https://pysdr.org/content/pyqt.html) for examples of how to implement real-time signal processing and visualization.
